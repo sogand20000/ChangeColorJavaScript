@@ -3,6 +3,7 @@
   --clr-white: #fff;
   --clr-black: #222;
   --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-purple: #6a0dad;
 }
 nav {
   background: --clr-white;
@@ -55,7 +56,6 @@ h2 {
   background: transparent;
   color: var(--clr-black);
   cursor: pointer;
-  transition-delay: 2s;
   border: 2px solid var(--clr-black);
 }
 .btn-hero:hover {
