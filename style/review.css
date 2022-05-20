@@ -1,0 +1,51 @@
+:root {
+  --teal-shadow: 5px 5px 5px 5px teal;
+  --clr-primary-5: hsl(205, 78%, 60%);
+  --btn: rgb(181, 181, 250);
+  --white: white;
+}
+body {
+  background: rgb(242, 244, 247);
+}
+.underLine {
+  background: rgb(73, 73, 236);
+  height: 3px;
+  width: 30px;
+  margin-left: 50%;
+}
+section {
+  background: var(--white);
+  box-shadow: var(--teal-shadow);
+  width: 40%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+main {
+  place-items: center;
+  display: grid;
+  margin-top: 10%;
+}
+.person-img {
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.title {
+  margin-bottom: 50px;
+}
+.blue {
+  color: var(--clr-primary-5);
+}
+#info {
+  margin: 20px;
+}
+.btn {
+  padding: 10px;
+  background: var(--btn);
+  margin-top: 10px;
+}
+.fabtn {
+  background: transparent;
+  padding: 5px;
+}
