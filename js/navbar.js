@@ -6,4 +6,3 @@ navtoggle.addEventListener('click', function () {
   } else links.classList.add('show-links') */
   links.classList.toggle('show-links')
 })
-console.log(links)
